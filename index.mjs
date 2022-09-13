@@ -29,3 +29,5 @@ app.get("/quote", async(_, res) => {
 app.listen(9009, () => {
     console.log("Running on port 9009.");
 });
+
+export default app;
